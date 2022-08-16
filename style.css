@@ -1,0 +1,9 @@
+body {
+  padding: env(safe-area-inset-top, 1em) env(safe-area-inset-right, 1em)
+    env(safe-area-inset-bottom, 1em) env(safe-area-inset-left, 1em);
+  background-color: blueviolet;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
